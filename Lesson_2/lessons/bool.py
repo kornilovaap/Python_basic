@@ -8,3 +8,15 @@ print(bool(-20))
 print(bool(None))
 print(bool(""))
 print(bool(" "))
+_____________________
+False
+True
+True
+True
+False
+True
+True
+False
+False
+True
+ 
