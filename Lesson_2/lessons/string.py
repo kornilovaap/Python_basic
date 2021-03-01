@@ -21,5 +21,10 @@ print(passport_series, passport_number)
 
 revers_string = "123"
 print(revers_string[::-1])
-
-
+_____________________________
+Joe Doe
+Joe Doe
+c
+1234 567890
+321
+  
