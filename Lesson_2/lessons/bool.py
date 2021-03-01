@@ -8,7 +8,7 @@ print(bool(-20))
 print(bool(None))
 print(bool(""))
 print(bool(" "))
-_____________________
+_______________________
 False
 True
 True
@@ -19,4 +19,4 @@ True
 False
 False
 True
- 
+    
