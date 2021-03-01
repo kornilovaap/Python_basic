@@ -10,4 +10,6 @@ try:
     a = 100/0
 except ZeroDivisionError:
     print("Zero")
- 
+________________________
+Invalid key
+Zero
