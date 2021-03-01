@@ -1,5 +1,5 @@
 old_dict = dict(name="John", age=10)
-new_dict = {"name": "John", "age": 10}
+new_dict = {"name": "John", "age": 20}
 
 print(old_dict.keys())
 print(old_dict.values())
@@ -15,8 +15,8 @@ if new_dict.get("surname") is None:
 _____________________________
 dict_keys(['name', 'age'])
 dict_values(['John', 10])
-10
-10
+20
+20
 None
 No surname
  
