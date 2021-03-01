@@ -12,3 +12,11 @@ print(new_dict.get("surname"))  # функция в таком случае от
 
 if new_dict.get("surname") is None:
     print("No surname")
+_____________________________
+dict_keys(['name', 'age'])
+dict_values(['John', 10])
+10
+10
+None
+No surname
+ 
