@@ -10,3 +10,4 @@ try:
     a = 100/0
 except ZeroDivisionError:
     print("Zero")
+ 
