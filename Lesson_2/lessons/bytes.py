@@ -10,3 +10,10 @@ print(type(byte_array_string))
 name = "John"
 byte_name = name.encode()  # по умолчанию utf-8
 print(type(byte_name))
+_____________________________
+b'Hello, world!'
+<class 'str'>
+<class 'bytes'>
+<class 'bytearray'>
+<class 'bytes'>
+ 
