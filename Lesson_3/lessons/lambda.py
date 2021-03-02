@@ -1,10 +1,12 @@
-# named_lambda = lambda name: f"Hello, {name}!"
-#
-# print(named_lambda("John"))
+# v.1
+named_lambda = lambda name: f"Hello, {name}!"
 
+print(named_lambda("John"))
+
+# v.2
 print(
     (lambda name: f"Hello, {name}!")
-    ("John")
+    ("Jack")
 )
 
 print(
@@ -16,3 +18,9 @@ print(
     (lambda *args: args)
     (1, 2, 3, 3)
 )
+________________________________
+Hello, John!
+Hello, Jack!
+4
+(1, 2, 3, 3)
+ 
