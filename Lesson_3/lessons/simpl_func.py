@@ -11,3 +11,9 @@ def user_hello(name):
 
 user_hello("Anna")
 user_hello("Roma")
+_____________________________
+Hello, John
+Hello, Jack
+Hello, Anna!!!
+Hello, Roma!!!
+ 
