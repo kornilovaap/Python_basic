@@ -12,43 +12,22 @@
 def my_sum():
     result = 0
     while True:
-        user_input = input("Введите строку чисел через пробел >>> ").split()
+        user_input = input("Введите строку чисел через пробел (для выхода нажмите на любой символ) >>> ").split()
         # флаг наличия символа, пока его нет, поэтому фолс
         symbol = False
-
         for number in user_input:
-
-            if number.isdigit():
-                result += float(number)
+            if number.isdigit():  # проверка, число ли это
+                result += int(number)
             else:
                 # если числа нет, то переключаем флаг, что в строке сивол, т.е.тру
                 symbol = True
                 break
         print(f"Итого: {result}")
-
         # при наличии сомвола останавливаем весь цикл
         if symbol:
+            print("До свидания")
             break
 
 
 my_sum()
-
-# def my_sum():
-#     sum_res = 0
-#     ex = False
-#     while True:
-#         number = input("Введите числа через пробел. Для выхода нажмите 000 >>> ").split()
-#
-#         res = 0
-#         for el in range(len(number)):
-#             if number[el] == '000':
-#                 ex = True
-#                 break
-#             else:
-#                 res = res + int(number[el])
-#         sum_res = sum_res + res
-#         print(sum_res)
-#     print(sum_res)
-
-
-# my_sum()
+_____________________________
