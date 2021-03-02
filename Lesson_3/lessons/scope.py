@@ -1,4 +1,4 @@
-number = 1
+number = 0
 
 
 def increment(a):
@@ -12,7 +12,7 @@ print(number)
 
 # global
 
-number = 10
+number = 30
 
 
 def increment(a):
@@ -30,7 +30,7 @@ print(result)
 # не локальная
 
 def top_func():
-    start = 0
+    start = 5
 
     def inner_func():
         nonlocal start
@@ -41,3 +41,13 @@ def top_func():
 
 
 top_func()
+________________________________
+0
+1
+0
+31
+30
+30
+31
+6
+ 
