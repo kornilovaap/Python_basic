@@ -9,3 +9,7 @@ def hello(word="World"):
 
 print(hello())
 print(hello("Home"))
+______________________________
+Hello, World
+Hello, Home
+ 
