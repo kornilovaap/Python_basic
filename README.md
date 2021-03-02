@@ -4,10 +4,10 @@
 Сертификат о прохождении курса https://geekbrains.ru/certificates/958299
 
 _________
-:information_source:
+:information_source:    
 папка tasks - моё решение домашних заданий   
 папка lessons - выполнение заданий из видео-лекций   
-всего 8 уроков по 1,5 часа
+всего 8 уроков по 1,5 часа    
 :information_source:
 _________
 
