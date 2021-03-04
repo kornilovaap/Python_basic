@@ -14,8 +14,20 @@ def int_func(word: str):
     return word
 
 
-user_input = input("Введите строку через пробел >>> ").split()
+def user_temp(string: str):
+    return ' '.join(map(int_func, string.split(' ')))
 
-user_input = [int_func(x) for x in user_input]
 
-print(" ".join(user_input))
+user_world = int_func(input("Введите любое слово >>> "))
+
+print(user_world)
+
+user_string = user_temp(input("Введите строку через пробел >>> "))
+
+print(user_string)
+_______________________________
+Введите любое слово >>> стих
+Стих
+Введите строку через пробел >>> ночь улица фонарь аптека
+Ночь Улица Фонарь Аптека
+ 
