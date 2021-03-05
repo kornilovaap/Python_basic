@@ -9,7 +9,9 @@ def my_func(*args):
 
 
 def my_func_2(a, b, c):
-    return max(a + b, b + c, c + a)
+    numbers = [a, b, c]
+    numbers.remove(min(numbers))
+    return sum(numbers)
 
 
 # lambda
