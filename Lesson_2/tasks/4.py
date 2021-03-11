@@ -6,10 +6,8 @@
 
 user_input = input("Введите несколько слов через пробел >>> ").split(" ")
 
-i = 1
-for el in user_input:
-    print(f"{i} >>> {el[:10]}")
-    i += 1
+for ind, el in enumerate(user_input):
+    print(f"{ind+1} >>> {el[:10]}")
 ____________________________________________
 Введите несколько слов через пробел >>> hello world !!! 112233445566778899 hi
 1 >>> hello
