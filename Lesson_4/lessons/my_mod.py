@@ -7,3 +7,4 @@ def calculate(salary):
 
 def hello(name):
     print(f"Hello, {name}")
+      
