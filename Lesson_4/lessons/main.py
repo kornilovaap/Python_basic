@@ -11,4 +11,4 @@ except ValueError:
 
 my_mod.hello(user)
 print(my_mod.calculate(float(salary)))
-
+    
