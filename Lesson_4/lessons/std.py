@@ -30,4 +30,7 @@ std_sleep(2)
 
 end = std_time()
 print(f"End at {end}")
+__________________________________
+Start at 1615819778.9096622
+End at 1615819780.9173355
   
