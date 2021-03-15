@@ -3,7 +3,7 @@ from Geek_les_04 import my_mod
 
 print(sys.argv)
 # С ПАРАМЕТРАМИ
-# задаются через конфигурацию (файл params в этом репозитории)
+# задаются через конфигурацию (my_mod.cpython-39.pyc)
 try:
     file, user, salary = sys.argv
 except ValueError:
