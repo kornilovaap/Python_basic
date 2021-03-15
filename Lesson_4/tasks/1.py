@@ -7,14 +7,12 @@ import sys
 
 
 def salary():
-    try:
-        # time = int(input("Ведите количнсвто отработанных часов >>> "))
-        # money = int(input("Введите ставку >>> "))
-        # bonus = int(input("Введите обещанную премию >>> "))
-        file, time, money, bonus = sys.argv
-        return int(time) * int(money) + int(bonus)
-    except TypeError:
-        return
+    file, time, money, bonus = sys.argv
+    return int(time) * int(money) + int(bonus)
 
 
 print(f"заработная плата сотрудника >>> {salary()}")
+___________________
+C:\Users\Im\PycharmProjects\MyStuff\venv\Scripts\python.exe C:/Users/Im/PycharmProjects/MyStuff/Geek_HW_04/1.py 40 350 7500
+заработная плата сотрудника >>> 21500
+    
