@@ -13,3 +13,4 @@ user_total = reduce(my_balance_func, user_balance.values())
 print(user_total)
 _______________________
 1000
+    
