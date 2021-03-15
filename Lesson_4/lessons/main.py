@@ -16,4 +16,4 @@ ______________________________________
 ['C:/Users/Im/PycharmProjects/MyStuff/Geek_les_04/main.py', 'test', '10000']
 Hello, test
 8700.0
-    
+     
