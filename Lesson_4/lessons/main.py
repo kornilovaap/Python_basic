@@ -12,4 +12,8 @@ except ValueError:
 
 my_mod.hello(user)
 print(my_mod.calculate(float(salary)))
+______________________________________
+['C:/Users/Im/PycharmProjects/MyStuff/Geek_les_04/main.py', 'test', '10000']
+Hello, test
+8700.0
     
