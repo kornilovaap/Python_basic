@@ -21,3 +21,4 @@ my_file.seek(0, 0)
 print(my_file.tell())
 
 my_file.close()
+    
