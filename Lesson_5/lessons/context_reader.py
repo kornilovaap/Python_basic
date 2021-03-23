@@ -11,3 +11,4 @@ try:
         print(my_file.read())
 except IOError:
     print("Some error")
+        
