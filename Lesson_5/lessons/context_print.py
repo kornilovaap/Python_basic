@@ -4,3 +4,4 @@ with open('data.txt', 'w') as printable:
 
     for x in strings:
         print(x, file=printable)
+    
