@@ -18,4 +18,4 @@ for x in files:
 print(os.path.split("/etc/hosts"))  # ('/etc', 'hosts')
 
 print(os.path.join("/etc/hosts", 'file/', 'hop/test', '1.txt'))  # /etc/hosts\file/hop/test\1.txt
-
+      
