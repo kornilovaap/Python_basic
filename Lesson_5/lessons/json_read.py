@@ -8,3 +8,4 @@ with open('person.json') as file_stream:
 
 print(json.loads('{"name": "John", "age": 40, "salaries": [100, 200, 160]}'))
 # {'name': 'John', 'age': 40, 'salaries': [100, 200, 160]}
+     
