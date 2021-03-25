@@ -17,5 +17,9 @@ with open("3.1.txt", encoding='utf-8') as f:
         if float(line[1]) < 20000:
             print(f"оклад менее 20 тыс.: {line[0]}")
         salary.append(line[1])
-    print(f"средняя величина дохода: {(sum(map(float, salary)) / len(salary))}")
+    print(f"средняя величина дохода: {round(sum(map(float, salary)) / len(salary), 2)}")
+________________________________________
+оклад менее 20 тыс.: Петров
+оклад менее 20 тыс.: Сидоров
+средняя величина дохода: 21975.43
     
