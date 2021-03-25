@@ -1,24 +1,27 @@
-  
-'''
-Создать текстовый файл (не программно), сохранить в нем несколько строк, 
+"""
+2. Создать текстовый файл (не программно), сохранить в нем несколько строк,
 выполнить подсчет количества строк, количества слов в каждой строке.
-'''
+"""
+with open("2.1.txt") as f:
 
-import os
+    # Читаем его построчно:
+    lines = f.readlines()
 
-with open("text.txt") as file:
-    text = file.read()
-    for line in text:
-        lines += 1
-            
-    text = text.replace("\n", " ")
-    text = text.replace(",", "").replace(".", "").replace("?", "").replace("!", "")
-    text = text.lower()
-    words = text.split()
-    words.sort()
-    return words
-        
-        
-print ("Количество строк в файле: ", lines)
-print ("Кол-во слов: %d" % len(words))
-   
+    # Создаем из строк списки слов:
+    list_of_lists = []
+    # Счёчик строк
+    i = 0
+    for line in lines:
+        line = line.split()
+        print(f"строка {i+1} - слов {len(line)}")
+        i += 1
+
+    print(f"всего строк: {i}")
+_____________________________________
+строка 1 - слов 1
+строка 2 - слов 2
+строка 3 - слов 5
+строка 4 - слов 6
+строка 5 - слов 1
+всего строк: 5
+    
