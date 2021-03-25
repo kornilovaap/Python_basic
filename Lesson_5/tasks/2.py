@@ -7,8 +7,6 @@ with open("2.1.txt") as f:
     # Читаем его построчно:
     lines = f.readlines()
 
-    # Создаем из строк списки слов:
-    list_of_lists = []
     # Счёчик строк
     i = 0
     for line in lines:
