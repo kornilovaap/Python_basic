@@ -19,6 +19,7 @@ with open("4.txt", encoding='utf-8') as f:
         line = line.split(' ', 1)
         new_dict.append(dictionary[line[0]] + '  ' + line[1])
     print(new_dict)
+    # ['Один  — 1\n', 'Два  — 2\n', 'Три  — 3\n', 'Четыре  — 4']
 
 with open("4_new.txt", "w", encoding='utf-8') as f2:
     f2.writelines(new_dict)
