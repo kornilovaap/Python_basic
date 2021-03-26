@@ -35,4 +35,4 @@ with open('7.txt', encoding='utf-8') as f:
 
 with open('7.json', 'w', encoding='utf-8') as f_json:
     json.dump(firms_info, f_json)
-
+     
