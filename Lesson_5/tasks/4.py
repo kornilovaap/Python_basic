@@ -23,3 +23,4 @@ with open("4.txt", encoding='utf-8') as f:
 
 with open("4_new.txt", "w", encoding='utf-8') as f2:
     f2.writelines(new_dict)
+     
