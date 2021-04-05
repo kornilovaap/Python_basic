@@ -42,3 +42,4 @@ print(Human.counter)  # 2
 
 # john.info()  # I'm John, age: 30, weight: 80
 # artur.info()  # I'm Artur, age: 40, weight: 80
+    
