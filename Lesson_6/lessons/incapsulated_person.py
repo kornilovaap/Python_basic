@@ -17,3 +17,4 @@ john = Person("Joe", "Doe")
 print(john.fullname())  # Person: Joe Doe
 
 # суть инкапсуляции - мы внутри метода fullname сокрываем логику генерации first_name и last_name в качестве строки
+     
