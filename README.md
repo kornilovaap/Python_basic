@@ -1,4 +1,4 @@
-# Python_GeekBrains.ru
+# Python_basic
 Самостоятельное изучение Python по курсу https://geekbrains.ru/courses/13
 
 Сертификат о прохождении курса https://geekbrains.ru/certificates/958299
