@@ -1,4 +1,4 @@
-### [1. Создать класс TrafficLight (светофор)](https://github.com/kornilovaap/Python_basic/blob/main/Lesson_6/tasks/1.pyy)
+### [1. Создать класс TrafficLight (светофор)](https://github.com/kornilovaap/Python_basic/blob/main/Lesson_6/tasks/1.py)
   - Определить у него один атрибут color (цвет) и метод running (запуск).
   - Атрибут реализовать как приватный.
   - В рамках метода реализовать переключение светофора в режимы: красный, желтый, зеленый.
