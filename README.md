@@ -75,7 +75,7 @@ _________
 7. Модуль os.
      
 
-### Урок 6: Объектно-Ориентированное Программирование(https://github.com/kornilovaap/Python_GeekBrains.ru/tree/main/Lesson_6)
+### [Урок 6: Объектно-Ориентированное Программирование](https://github.com/kornilovaap/Python_GeekBrains.ru/tree/main/Lesson_6)
 1. Понятие ООП.
 1. Классы, объекты, атрибуты.
 1. Конструкторы, методы.
