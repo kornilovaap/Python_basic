@@ -35,4 +35,11 @@ class TrafficLight:
 
 traffic = TrafficLight()
 traffic.running()
+________________________________-
+red
+yellow
+green
+red
+yellow
+               
                       
