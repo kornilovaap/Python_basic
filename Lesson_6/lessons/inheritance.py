@@ -16,13 +16,12 @@ class User(Person):
     password: str
 
     def __init__(self, first_name: str, last_name: str, login: str):
-        # super() - возаращает родительский класс, т.е. Person в данном случае
-        super().__init__(first_name, last_name)
-        # перегруили, или переопредили метод добавлением аргумента. Старый класс как работал, так и работает, новый класс принмает новый аргумент
-        self.login = login
+        super().__init__(first_name, last_name)  # super() - возаращает родительский класс, т.е. Person в данном случае
+        self.login = login   # перегруили, или переопредили метод добавлением аргумента. Старый класс как работал, так и работает, новый класс принмает новый аргумент
 
     def log_in(self):
         print(f"Welcome, {self.fullname()}!")
+
 
 # полиморфзм
 class PrinterInfo:
@@ -38,11 +37,11 @@ class PrinterInfo:
 artur = Person("Artur", "Doe")
 
 john = User("Joe", "Doe", "joe_doe")
-john.log_in()  # Welcome, Person: Joe Doe!
+john.log_in()  # Welcome, Joe Doe!
 
 printer = PrinterInfo()
 
-printer.info(artur)
-printer.info(john)
-printer.info("Kate")
-    
+printer.info(artur)  # It's a Person!
+printer.info(john)  # It's a User!
+printer.info("Kate")  # Unknown class/type      
+                
